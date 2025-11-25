@@ -59,12 +59,11 @@ const Dealer = () => {
   useEffect(() => {
     get_dealer();
     get_reviews();
-    if(sessionStorage.getItem("username")) {
-      setPostReview(<a href={post_review}><img src={review_icon} style={{width:'10%',marginLeft:'10px',marginTop:'10px'}} alt='Post Review'/></a>)
-
-      
+    if (sessionStorage.getItem("username")) {
+      setPostReview(<a href={post_review}><img src={review_icon} style={{width: '10%', marginLeft: '10px', marginTop: '10px'}} alt='Post Review'/></a>)
     }
-  },[]);  
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);  
 
 
 return(
