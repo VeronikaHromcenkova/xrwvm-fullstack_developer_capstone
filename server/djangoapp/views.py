@@ -62,6 +62,7 @@ def login_user(request):
 # def registration(request):
 # ...
 
+
 def get_dealerships(request, state="All"):
     """Get dealerships all by default, particular state if state passed."""
     if state == "All":

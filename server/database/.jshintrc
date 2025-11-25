@@ -1,0 +1,19 @@
+{
+  "esversion": 8,
+  "node": true,
+  "strict": false,
+  "undef": true,
+  "unused": true,
+  "latedef": false,
+  "boss": true,
+  "curly": true,
+  "eqeqeq": true,
+  "immed": true,
+  "laxcomma": true,
+  "newcap": true,
+  "noarg": true,
+  "sub": true,
+  "trailing": true,
+  "smarttabs": true,
+  "mocha": true
+}
